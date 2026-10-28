@@ -19,7 +19,7 @@ test('show success message when order created', async ({ page }) => {
 
 // default state: button disabled + Delivery method is parcel + Payment method is bank card
 
-test.only ('default state validation', async ({ page }) => {
+test ('default state validation', async ({ page }) => {
     await page.goto('https://shop.tl-academy.ee/checkout');
 
     // 1. check button disabled
